@@ -5,11 +5,10 @@
 /// </summary>
 public class Main : MonoBehaviour
 {
-
     private void Awake()
     {
         // 初始化一些必要的管理器
-        GameLogger.Init();
+        // GameLogger.Init();
         VersionMgr.instance.Init();
         PanelMgr.instance.Init();
 
